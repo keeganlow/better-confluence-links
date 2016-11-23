@@ -1,0 +1,18 @@
+{
+  "name": "Better Confluence Links",
+  "description": "project management software management software",
+  "manifest_version": 2,
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.atlassian.net/*"
+      ],
+      "js": ["jquery.min.js", "better-confluence-links.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
