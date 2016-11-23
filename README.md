@@ -1,6 +1,6 @@
 # Better Confluence Links
 
-*tl;dr:* when a JIRA issue is mentioned in a confluence doc, clicking the link
+**tl;dr:** when a JIRA issue is mentioned in a confluence doc, clicking the link
 in JIRA to the confluence page will now bring you to a (hopefully) more sensible
 part of the page.
 
