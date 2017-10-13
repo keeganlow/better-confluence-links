@@ -40,7 +40,7 @@ $(function() {
     if (ref.match(jiraIssueIdRegex)) {
       let issueId = ref.match(jiraIssueIdRegex)[1];
 
-      // confluence loads the jira links with a ajax request (at least in some
+      // confluence loads the jira links with an ajax request (at least in some
       // cases) so doc ready does not necessarily mean jira links are in the
       // dom
       setTimeout(() => {
