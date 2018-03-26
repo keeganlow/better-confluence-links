@@ -45,7 +45,7 @@ $(function() {
       // dom
       setTimeout(() => {
         scollToIssueIdInConfluence(issueId);
-      }, 1000);
+      }, 2000);
     }
   });
 })
